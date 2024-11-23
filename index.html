@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. ALL Amin Khan Srabon | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        fade: "fadeIn 2s ease-in-out",
+                        bounce: "bounce 1s infinite",
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            "0%": { opacity: "0" },
+                            "100%": { opacity: "1" },
+                        },
+                    },
+                },
+            },
+        };
+
+        
+    </script>
+
+    <style>
+         html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    </style>
+    <link rel="icon" type="image/x-icon" href="./sra.png">
+</head>
+<body class="bg-gray-100 text-gray-800 overflow-x-hidden">
+
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0  z-50">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
+            <!-- Logo and Name -->
+            <div class="flex items-center space-x-2">
+                <img src="image.png" alt="Logo" class="w-12 h-12 rounded-full">
+                <h1 class="text-xl md:text-2xl font-bold text-blue-500">ALL Amin Khan</h1>
+            </div>
+    
+            <!-- Hamburger Menu Button for Mobile -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-2xl focus:outline-none">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+    
+            <!-- Desktop Menu -->
+            <ul id="menu" class="hidden md:flex space-x-6 text-lg">
+                <li><a href="#career" class="hover:text-blue-500">Career</a></li>
+                <li><a href="#education" class="hover:text-blue-500">Education</a></li>
+                <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+                <li><a href="#experience" class="hover:text-blue-500">Experience</a></li>
+                <li><a href="#personal" class="hover:text-blue-500">Personal</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Mobile Menu -->
+        <ul id="mobile-menu" class="hidden flex-col space-y-4 bg-white p-4 shadow-md md:hidden">
+            <li><a href="#career" class="block text-lg hover:text-blue-500">Career</a></li>
+            <li><a href="#education" class="block text-lg hover:text-blue-500">Education</a></li>
+            <li><a href="#skills" class="block text-lg hover:text-blue-500">Skills</a></li>
+            <li><a href="#experience" class="block text-lg hover:text-blue-500">Experience</a></li>
+            <li><a href="#personal" class="block text-lg hover:text-blue-500">Personal</a></li>
+            <li><a href="#contact" class="block text-lg hover:text-blue-500">Contact</a></li>
+        </ul>
+    </header>
+    
+    
+    <!-- Hero Section -->
+    <section class="bg-gray-100 text-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
+            <!-- Left Content: Text -->
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-blue-500 leading-tight">
+                    Welcome to My Portfolio
+                </h1>
+                <p class="mt-4 text-lg text-gray-700">
+                    Hi, I'm <span class="font-bold text-blue-500">ALL Amin Khan</span>. Passionate about health and research-oriented challenges, I am here to share my journey and expertise with the world.
+                </p>
+                <div class="mt-6">
+                    <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-600 transition duration-300">
+                        Contact Me
+                    </a>
+                    <a href="#about" class="ml-4 bg-gray-200 text-gray-800 px-6 py-3 rounded-md shadow-md hover:bg-gray-300 transition duration-300">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Right Content: Image -->
+            <div class="w-full  md:w-1/2 flex justify-center">
+                <img src="./sra.png" alt="Site Owner Image" class="w-60 h-60 md:w-80 md:h-80 rounded-full shadow-lg object-cover">
+            </div>
+        </div>
+    </section>
+    
+
+  
+<section id="career" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-8">
+        <!-- Left Content: Image -->
+        <div class="flex justify-center w-full md:w-1/3">
+            <img src="./s2.png" alt="ALL Amin Khan" class="rounded-full shadow-lg object-cover w-60 h-60 md:w-72 md:h-72">
+        </div>
+        
+        <!-- Right Content: Text -->
+        <div class="w-full md:w-2/3">
+            <h2 class="text-3xl font-bold mb-4 text-center md:text-left">Career Summary</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                As a dedicated and passionate professional, I aspire to contribute to renowned health and research organizations. My journey is fueled by enthusiasm for challenges and a commitment to exploring innovative ideas and strategies. With a strong foundation in communication and collaboration, I seek to partner with esteemed institutions to achieve meaningful goals and drive impactful results. I am ready to embark on a path toward successive milestones, leveraging my skills and expertise to make a difference.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Academic Credentials</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold">Bachelor of Business Administration (BBA)</h3>
+                    <p>Institution: Uttara Town College (UTC)</p>
+                    <p>Year: 2022 | CGPA: 3.09</p>
+                    <p>Subject: Accounting</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold">Higher Secondary Certificate (H.S.C)</h3>
+                    <p>Institution: Sataish School & College</p>
+                    <p>Year: 2018 | GPA: 3.83</p>
+                    <p>Subject: Commerce</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold">Secondary School Certificate (S.S.C)</h3>
+                    <p>Institution: Sataish School & College</p>
+                    <p>Year: 2016 | GPA: 4.17</p>
+                    <p>Subject: Commerce</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Core Skills</h2>
+            <ul class="list-disc text-lg space-y-4 pl-6">
+                <li>Proficiency in MS Word, Excel, and PowerPoint</li>
+                <li>Advanced web browsing and internet usage</li>
+                <li>Computer maintenance and troubleshooting</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Professional Experience</h2>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold">AL-Madina Pharmaceutical Ltd. (4 years)</h3>
+                <ul class="list-disc text-lg space-y-2 pl-6">
+                    <li>Dispensing raw materials</li>
+                    <li>Inventory management and control</li>
+                    <li>Monitoring medicine expiry</li>
+                    <li>Maintaining logs and ledgers</li>
+                    <li>Compliance with health authority policies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Profile Section -->
+    <section id="personal" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Personal Profile</h2>
+            <ul class="text-lg space-y-2">
+                <li><strong>Name:</strong> Md. ALL Amin Khan Srabon</li>
+                <li><strong>Father's Name:</strong> Md. Israfil Hossen Khan</li>
+                <li><strong>Mother's Name:</strong> Jasmin</li>
+                <li><strong>Date of Birth:</strong> 05/03/1998</li>
+                <li><strong>Blood Group:</strong> A+</li>
+                <li><strong>Religion:</strong> Islam</li>
+                <li><strong>Nationality:</strong> Bangladeshi</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <p class="text-lg">Phone: +8801923517252</p>
+            <p class="text-lg">Email: <a href="mailto:alamin0999khan@gmail.com" class="text-blue-500 hover:underline">alamin0999khan@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>© 2024 Md. ALL Amin Khan Srabon. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
